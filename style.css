@@ -35,51 +35,13 @@ header nav ul li a {
     border-radius: 50%;
 }
 
-.carousel {
-    position: relative;
-    max-width: 100%;
-    margin: 20px auto;
+section {
+    padding: 20px;
 }
 
-.carousel .slides img {
-    width: 100%;
-    display: none;
-}
-
-.carousel .slides img.active {
-    display: block;
-}
-
-button.prev, button.next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 10px;
-    margin-top: -22px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    background-color: rgba(0,0,0,0.8);
-}
-
-button.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-button.prev {
-    left: 0;
-}
-
-@media (max-width: 600px) {
-    header nav ul li {
-        display: block;
-        margin: 10px 0;
-    }
+h2 {
+    border-bottom: 3px solid #333;
+    padding-bottom: 5px;
 }
 
 footer {
